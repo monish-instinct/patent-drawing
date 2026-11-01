@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="pd vintage" viewBox="0 0 850 1100" width="850" height="1100" data-sheet="4" data-figs="3">
+<style>
+.pd{--paper:#fffefb;--ink:#141414;--hl:#d2401d}
+.pd.vintage{--paper:#efe2c4;--ink:#2d2216;--hl:#b3261e}
+.pd.blueprint{--paper:#1c4a86;--ink:#eef5ff;--hl:#ffd44d}
+.pd .bg{fill:var(--paper)}
+.pd .paper{fill:var(--paper)} .pd .ink{fill:var(--ink)} .pd .none{fill:none}
+.pd .s{stroke:var(--ink);stroke-width:1.55;stroke-linejoin:round;stroke-linecap:round}
+.pd .s.thin{stroke-width:.85} .pd .s.shade{stroke-width:.8} .pd .s.lead{stroke-width:.9}
+.pd .hatch{stroke:var(--ink);stroke-width:.65;fill:none}
+.pd .tube-o{stroke:var(--ink);fill:none;stroke-linecap:round;stroke-linejoin:round}
+.pd .tube-i{stroke:var(--paper);fill:none;stroke-linecap:round;stroke-linejoin:round}
+.pd .raw *{vector-effect:non-scaling-stroke;stroke:var(--ink);stroke-width:1.5}
+.pd .raw .paper{fill:var(--paper)} .pd .raw [fill="none"]{fill:none}
+.pd text{fill:var(--ink)}
+.pd .serif{font-family:"Times New Roman",Times,"Liberation Serif",serif}
+.pd .sans,.pd .num{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
+.pd .num{font-size:15.5px}
+.pd .figlabel{font-family:"Times New Roman",Times,serif;font-style:italic;font-weight:bold;font-size:31px;letter-spacing:1px}
+.pd .grain,.pd .grid,.pd .vignette{display:none}
+.pd.vintage .grain,.pd.vintage .vignette{display:inline}
+.pd.blueprint .grid{display:inline}
+.pd .hl .s,.pd .hl .tube-o,.pd .hl .lead{stroke:var(--hl)} .pd .hl text{fill:var(--hl)}
+.pd .hl .hatch{stroke:var(--hl)}
+</style>
+<defs>
+  <filter id="sh4g" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="28"/><feColorMatrix values="0 0 0 0 .35  0 0 0 0 .25  0 0 0 0 .12  0 0 0 .55 -.18"/></filter>
+  <radialGradient id="sh4v" cx=".5" cy=".45" r=".75"><stop offset=".55" stop-color="#7a5a2a" stop-opacity="0"/><stop offset="1" stop-color="#7a5a2a" stop-opacity=".22"/></radialGradient>
+  <pattern id="sh4p" width="25" height="25" patternUnits="userSpaceOnUse"><path d="M25 0H0V25" fill="none" stroke="#fff" stroke-opacity=".09" stroke-width="1"/></pattern>
+</defs>
+<rect class="bg" width="850" height="1100"/>
+<rect class="grid" width="850" height="1100" fill="url(#sh4p)"/>
+<g class="header">
+    <text class="serif" x="60" y="62" font-size="13" letter-spacing="1">Patent Drawing</text>
+    <text class="serif" x="425" y="62" font-size="13" text-anchor="middle">Nov. 1, 2026</text>
+    <text class="serif" x="790" y="62" font-size="13" text-anchor="end">Sheet 4 of 5</text>
+    <text class="serif" x="790" y="80" font-size="11" text-anchor="end" font-style="italic">Self-stirring beverage vessel with sugar disso…</text>
+  </g><g class="figure" data-fig="3"><path class="paper" d="M462 171 L468.08 171.8 L473.75 174.15 L478.62 177.88 L482.35 182.75 L484.7 188.42 L485.5 194.5 L484.7 200.58 L482.35 206.25 L478.62 211.12 L473.75 214.85 L468.08 217.2 L462 218 L278 218 L271.92 217.2 L266.25 214.85 L261.38 211.12 L257.65 206.25 L255.3 200.58 L254.5 194.5 L255.3 188.42 L257.65 182.75 L261.38 177.88 L266.25 174.15 L271.92 171.8 L278 171Z"/><path class="s none" d="M462 171 L468.08 171.8 L473.75 174.15 L478.62 177.88 L482.35 182.75 L484.7 188.42 L485.5 194.5 L484.7 200.58 L482.35 206.25 L478.62 211.12 L473.75 214.85 L468.08 217.2 L462 218 L278 218 L271.92 217.2 L266.25 214.85 L261.38 211.12 L257.65 206.25 L255.3 200.58 L254.5 194.5 L255.3 188.42 L257.65 182.75 L261.38 177.88 L266.25 174.15 L271.92 171.8 L278 171Z"/><text class="sans" x="370" y="199.36" font-size="13.5" text-anchor="middle"><tspan x="370" dy="0">START</tspan></text><path class="s none" d="M370 218 L370 268"/><path class="ink" d="M370 268 L366.75 257.49 L373.25 257.49Z"/><g data-n="302"><path class="paper" d="M205 268 L535 268 L535 320 L205 320Z"/><path class="s none" d="M205 268 L535 268 L535 320 L205 320Z"/></g><g data-n="302"><text class="sans" x="370" y="298.86" font-size="13.5" text-anchor="middle"><tspan x="370" dy="0">DETECT VESSEL PLACED ON BASE</tspan></text></g><path class="s none lead" d="M569 278.64 Q559 289.64 537 288.64"/><text class="sans" x="575" y="282.64" font-size="15" text-anchor="start"><tspan x="575" dy="0">302</tspan></text><path class="s none" d="M370 320 L370 370"/><path class="ink" d="M370 370 L366.75 359.49 L373.25 359.49Z"/><g data-n="304"><path class="paper" d="M205 370 L535 370 L535 434 L205 434Z"/><path class="s none" d="M205 370 L535 370 L535 434 L205 434Z"/></g><g data-n="304"><text class="sans" x="370" y="398.36" font-size="13.5" text-anchor="middle"><tspan x="370" dy="0">MEASURE BEVERAGE TEMPERATURE AND</tspan><tspan x="370" dy="17">SUGAR ADDED</tspan></text></g><path class="s none lead" d="M569 384.48 Q559 395.48 537 394.48"/><text class="sans" x="575" y="388.48" font-size="15" text-anchor="start"><tspan x="575" dy="0">304</tspan></text><path class="s none" d="M370 434 L370 484"/><path class="ink" d="M370 484 L366.75 473.49 L373.25 473.49Z"/><g data-n="306"><path class="paper" d="M205 484 L535 484 L535 536 L205 536Z"/><path class="s none" d="M205 484 L535 484 L535 536 L205 536Z"/></g><g data-n="306"><text class="sans" x="370" y="514.86" font-size="13.5" text-anchor="middle"><tspan x="370" dy="0">SPIN IMPELLER AT STIRRING SPEED</tspan></text></g><path class="s none lead" d="M569 494.64 Q559 505.64 537 504.64"/><text class="sans" x="575" y="498.64" font-size="15" text-anchor="start"><tspan x="575" dy="0">306</tspan></text><path class="s none" d="M370 536 L370 586"/><path class="ink" d="M370 586 L366.75 575.49 L373.25 575.49Z"/><g data-n="308"><path class="paper" d="M370 586 L518.5 645 L370 704 L221.5 645Z"/><path class="s none" d="M370 586 L518.5 645 L370 704 L221.5 645Z"/></g><g data-n="308"><text class="sans" x="370" y="649.86" font-size="13.5" text-anchor="middle"><tspan x="370" dy="0">SUGAR DISSOLVED?</tspan></text></g><path class="s none lead" d="M569 613.04 Q518.08 624.04 455.16 623.04"/><text class="sans" x="575" y="617.04" font-size="15" text-anchor="start"><tspan x="575" dy="0">308</tspan></text><path class="s none" d="M370 704 L370 754"/><path class="ink" d="M370 754 L366.75 743.49 L373.25 743.49Z"/><text class="sans" x="380" y="724" font-size="12" text-anchor="start"><tspan x="380" dy="0">YES</tspan></text><g data-n="310"><path class="paper" d="M205 754 L535 754 L535 818 L205 818Z"/><path class="s none" d="M205 754 L535 754 L535 818 L205 818Z"/></g><g data-n="310"><text class="sans" x="370" y="782.36" font-size="13.5" text-anchor="middle"><tspan x="370" dy="0">STOP IMPELLER AND PLAY</tspan><tspan x="370" dy="17">TRIUMPHANT CHIME</tspan></text></g><path class="s none lead" d="M569 768.48 Q559 779.48 537 778.48"/><text class="sans" x="575" y="772.48" font-size="15" text-anchor="start"><tspan x="575" dy="0">310</tspan></text><path class="s none" d="M370 818 L370 868"/><path class="ink" d="M370 868 L366.75 857.49 L373.25 857.49Z"/><path class="paper" d="M462 868 L468.08 868.8 L473.75 871.15 L478.62 874.88 L482.35 879.75 L484.7 885.42 L485.5 891.5 L484.7 897.58 L482.35 903.25 L478.62 908.12 L473.75 911.85 L468.08 914.2 L462 915 L278 915 L271.92 914.2 L266.25 911.85 L261.38 908.12 L257.65 903.25 L255.3 897.58 L254.5 891.5 L255.3 885.42 L257.65 879.75 L261.38 874.88 L266.25 871.15 L271.92 868.8 L278 868Z"/><path class="s none" d="M462 868 L468.08 868.8 L473.75 871.15 L478.62 874.88 L482.35 879.75 L484.7 885.42 L485.5 891.5 L484.7 897.58 L482.35 903.25 L478.62 908.12 L473.75 911.85 L468.08 914.2 L462 915 L278 915 L271.92 914.2 L266.25 911.85 L261.38 908.12 L257.65 903.25 L255.3 897.58 L254.5 891.5 L255.3 885.42 L257.65 879.75 L261.38 874.88 L266.25 871.15 L271.92 868.8 L278 868Z"/><text class="sans" x="370" y="896.36" font-size="13.5" text-anchor="middle"><tspan x="370" dy="0">END</tspan></text><path class="s none" d="M518.5 645 L645 645 L645 510 L537 510"/><path class="ink" d="M537 510 L547.51 506.75 L547.51 513.25Z"/><text class="sans" x="530.5" y="638" font-size="12" text-anchor="start"><tspan x="530.5" dy="0">NO</tspan></text><text class="figlabel" x="425" y="969" text-anchor="middle">FIG. 3</text></g>
+<rect class="vignette" width="850" height="1100" fill="url(#sh4v)" pointer-events="none"/>
+<rect class="grain" width="850" height="1100" filter="url(#sh4g)" opacity=".5" pointer-events="none"/>
+</svg>
